@@ -1,0 +1,68 @@
+/*Selector universal*/
+*{
+	margin: 0 auto;
+}
+
+/*Selectores de etiquetas*/
+body{
+	font-family: "Roboto", sans-serif;
+}
+
+article{
+	border: 1px solid blue;
+	margin: 10px;
+	padding: 10px;
+	width: 45%;
+	flex-direction: row;
+}
+
+h1{
+	font-size: 1.5em;
+	text-align: center;
+}
+
+div{
+	border: 1px solid yellow;
+	margin: 10px;
+	padding: 15px;
+}
+
+/*Selector descendente*/
+div h1{
+	font-size: 1.2em;
+	border-bottom: 1px solid red;
+	margin-bottom: 10px;
+	text-align: left;
+	font-weight: lighter;
+}
+
+/*Selector de hijo directo*/
+article > h1{
+	color: blue;
+	font-size: 1.25em;
+}
+
+/*Elementos referenciados por atributo*/
+div[name="noroeste"]{
+	background-color: rgb(255, 255, 204);
+}
+
+div[name="suroeste"]{
+	background-color: rgb(255, 204, 255);
+}
+
+div[name="pacifico"]{
+	background-color: rgb(204, 255, 255);
+}
+
+div[name="atlantico"]{
+	background-color: rgb(204, 255, 153);
+}
+
+div[name="central"]{
+	background-color: rgb(255, 153, 204);
+}
+
+div[name="sureste"]{
+	background-color: rgb(255, 204, 153);
+}

@@ -1,0 +1,50 @@
+/* Selector universal */
+*{
+	margin: 10px;
+	padding: 0;
+}
+
+/* Ejemplos de selector de etiqueta */
+body{
+	font-family: Arial, Helvetica, snas-serif;
+	background: #FFFF00 url("rafa.jpg") no-repeat right top fixed;
+}
+
+h1{
+	color: #8A8E27;
+	font-weight: normal;
+	font-size: 1.5em;
+}
+
+/* Ejemplo de selector descendente */
+p span{
+	color: #0000FF;
+	font-weigth: bold;
+}
+
+p span span{
+	color: #FF0000;
+	font-style: italic; 
+}
+
+/* Ejemplo de selector de clase */
+.parrafo{
+	color: rgb(128, 128, 128);
+	font-size: 0.8em;
+}
+
+/* Ejemplos de selector de id */
+#ident1{
+	color: #FF00FF;
+}
+
+#ident2{
+	color: #00FFFF;
+}
+
+/* Ejemplo de combinación de selectores */
+#ident2 .parrafo{
+	font-weight: bold;
+	font-style: italic;
+	color: black;
+}

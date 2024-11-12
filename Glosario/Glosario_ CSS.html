@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./estilos/styles.css">
+    <title>Glosario</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="./images/css.jpg" alt="cabecera">
+        </figure>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Glosario_ index.html" target="_parent">INICIO</a></li>
+            <li><a href="Glosario_ HTML.html" target="_parent">HTML</a></li>
+        </ul>
+    </nav>
+    <section>
+    <h1>Propiedades de Espaciado y Tamaño</h1>
+    <ul>
+        <li><b>margin</b>: Establece el espacio exterior de un elemento.
+            <br>Ejemplo: margin: 5px 20px 5px 0;
+        </li>
+        <li><b>padding</b>: Define el espacio interior entre el contenido y el borde.
+            <br>Ejemplo: padding: 3px;
+        </li>
+        <li><b>width</b>: Establece el ancho de un elemento.
+            <br>Ejemplo: width: 1100px;
+        </li>
+        <li><b>height</b>: Define la altura de un elemento.
+            <br>Ejemplo: height: 30px;
+        </li>
+    </ul>
+
+    <h1>Propiedades de Texto y Fuente</h1>
+    <ul>
+        <li><b>Insertar fuente en html</b>: &lt;link href="url_google_font" rel="stylesheet"></li>
+        <li><b>font-family</b>: Especifica la fuente de texto en un elemento.
+            <br>Ejemplo: font-family: 'Open Sans', sans-serif;
+        </li>
+        <li><b>font-size</b>: Define el tamaño de la fuente.
+            <br>Ejemplo: font-size: 0.95em;
+        </li>
+        <li><b>font-weight</b>: Controla el grosor de la fuente.
+            <br>Ejemplo: font-weight: bold;
+        </li>
+        <li><b>color</b>: Establece el color del texto.
+            <br>Ejemplo: color: white;
+        </li>
+        <li><b>text-align</b>: Alinea horizontalmente el texto dentro de un elemento.
+            <br>Ejemplo: text-align: center;
+        </li>
+        <li><b>text-decoration</b>: Controla decoraciones de texto (por ejemplo, subrayado).
+            <br>Ejemplo: text-decoration: none;
+        </li>
+        <li><b>@font-face</b>: Insertar una fuente específica.
+            <br>Ejemplo: @font-face{ font-family: "MiFuente"; src: url(""); };
+        </li>
+    </ul>
+
+    <h1>Propiedades de Fondo y Bordes</h1>
+    <ul>
+        <li><b>background-color</b>: Define el color de fondo del elemento.
+            <br>Ejemplo: background-color: darkgrey;
+        </li>
+        <li><b>linear-gradient</b>: Degradado lineal del color de fondo del elemento.
+            <br>Ejemplo: background: linear-gradient(top, #ffffff, #000000);
+        </li>
+        <li><b>radial-gradient</b>: Degradado circular del color de fondo del elemento.
+            <br>Ejemplo: background: radial-gradient(center, circle, #ffffff, #000000);
+        </li>
+        <li><b>border</b>: Establece un borde alrededor de un elemento.
+            <br>Ejemplo: border: 1px solid black;
+        </li>
+        <li><b>border-radius</b>: Redondea las esquinas del borde.
+            <br>Ejemplo: border-radius: 5px;
+        </li>
+    </ul>
+
+    <h1>Modelo de Caja (Box Model)</h1>
+    <ul>
+        <li><b>box-shadow</b>: Aplica una sombra dentro o fuera de un elemento.
+            <br>Ejemplo: box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+        </li>
+        <li><b>clear</b>: Controla el comportamiento de los elementos flotantes, evitando que otros elementos se alineen al lado del elemento actual.
+            <br>Ejemplo: clear: both;
+        </li>
+    </ul>
+
+    <h1>Visualización y Posicionamiento</h1>
+    <ul>
+        <li><b>float</b>: Controla la alineación de un elemento dentro de su contenedor (a la izquierda o derecha).
+            <br>Ejemplo: float: left;
+        </li>
+        <li><b>display</b>: Define cómo debe mostrarse el elemento (por ejemplo, en línea o como bloque).
+            <br>Ejemplo: display: block;<br>
+                Ejemplo: display: flex;
+        </li>
+        <li><b>flex-direction</b>: que cambia la orientación del eje principal. Puede tomar los valores:
+            <ul>
+                <li>row</li>
+                <li>row-reverse</li>
+                <li>column</li>
+                <li>column-reverse</li>
+            </ul>
+        </li>
+        <li><b>flex-wrap</b>: que evita o permite el desbordamiento (multilínea). Puede tomar los valores:
+            <ul>
+                <li>nowrap</li>
+                <li>wrap</li>
+                <li>wrap-reverse</li>
+            </ul>
+        </li>
+        <li><b>justify-content</b>: que se utiliza para alinear los ítems del eje principal (por defecto, el horizontal). Puede tomar los valores:
+            <ul>
+                <li>flex-start</li>
+                <li>flex-end</li>
+                <li>center</li>
+                <li>space-between</li>
+                <li>space-around</li>
+                <li>space-evenly</li>
+            </ul>
+        </li>
+        <li><b>align-items</b>: usada para alinear los ítems del eje secundario (por defecto, el vertical). Puede tomar los valores:
+            <ul>
+                <li>flex-start</li>
+                <li>flex-end</li>
+                <li>center</li>
+                <li>space-between</li>
+                <li>space-around</li>
+                <li>stretch</li>
+            </ul>
+        </li>
+        <li><b>transform</b>: Permite la transformación de un objeto.</li>
+        <li><b>transform:scale</b>: Realiza una transformación de escala.
+            <br>Ejemplo: .imagen:hover{ -webkit-transform: scale(3); }
+        </li>
+        <li><b>transform:rotate</b>: Realiza una transformación de giro.
+            <br>Ejemplo: .imagen:hover{ -webkit-transform: rotate(10deg); }
+        </li>
+        <li><b>transform:translate</b>: Realiza una transformación de cambio de posición.
+            <br>Ejemplo: .imagen:hover{ -webkit-transform: translateX(100px) translateY(100px); }
+        </li>
+        <li><b>transform:skew</b>: Realiza una transformación de distorsión.
+            <br>Ejemplo: .imagen:hover{ -webkit-transform: skew(20deg, 10 deg); }
+        </li>
+        <li><b>transition</b>: Modifica parámetros como el orden y velocidad de las transiciones.
+            <br>Ejemplo: .imagen:hover{ -webkit-transition: -webkit-transform 1s ease-in-out 0.5s;}
+        </li>
+    </ul>
+
+    <h1>Pseudo-clases</h1>
+    <ul>
+        <li><b>:hover</b>: Aplica estilos cuando el cursor pasa sobre el elemento.
+            <br>Ejemplo: a:hover { background-color: darkgray; }
+        </li>
+    </ul>
+
+    <h1>Propiedades de Listas y Enlaces</h1>
+    <ul>
+        <li><b>list-style</b>: Define el tipo de marcador de lista (none, circle, number, square, lower-alpha).
+            <br>Ejemplo: list-style: none;
+        </li>
+        <li><b>text-decoration</b>: Controla decoraciones en enlaces (overline, underline, line-through).
+            <br>Ejemplo: text-decoration: none;
+        </li>
+    </ul>
+    <h1>Link insertar CSS</h1>
+    <ul>
+        <li>&lt;link rel="stylesheet" type="text/css" href="styles.css"></li>
+    </ul>
+    </section>
+</body>
+</html>

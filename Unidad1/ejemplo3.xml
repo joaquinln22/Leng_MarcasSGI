@@ -1,0 +1,18 @@
+<cfgs>
+	<nombre>Desarrollo de Aplicaciones Web</nombre>
+	<curso>Segundo</curso>
+	<modulos>
+		<modulo>
+			<nombre>Lenguaje de Marcas y SGI</nombre>
+			<profesor>Victor Verdú</profesor>
+		</modulo>
+		<modulo>
+			<nombre>Diseño de Interfaces Web</nombre>
+			<profesor>Victor Verdú</profesor>
+		</modulo>
+		<modulo>
+			<nombre>Despliegue de Aplicaciones Web</nombre>
+			<profesor>Fernando Ureña</profesor>
+		</modulo>
+	</modulos>
+</cfgs>

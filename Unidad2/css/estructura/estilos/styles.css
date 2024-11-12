@@ -1,0 +1,142 @@
+*{
+	margin: 0 auto;
+}
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 10pt;
+	width: 900px;
+}
+h1{
+	font-size: 1.6em; /* 60% más que el tamaño de la fuente del body */
+	font-family: 'Ubuntu';
+}
+
+h2{
+	font-size: 1.2em;
+}
+
+header{
+	width: 100%;
+	text-align: center;
+	line-height: 2em;
+	letter-spacing: 1px;
+	background-color: #363639;
+	color: #899D65;
+}
+
+section{
+	width: 680px;
+	margin-right: 20px;
+	float: left; 
+}
+
+section article{
+	width: 680px;
+	background-color: #BECBA5;
+	color: #504F71;
+	border: 1px solid #899D65;
+	padding: 4px;					/* Relleno entre el borde y las letras, dentro del articulo*/
+	margin-top: 4px;				/*Relleno o separación entre un articulo y otro*/
+	margin-bottom: 4px;
+	float: left;
+}
+
+section article header{
+	width: 672px;					/* Le reducimos el ancho al header para compensar los 8px de padding que le hemos añadido */
+	text-align: left;
+	letter-spacing: 0px;
+	padding: 4px;
+	background-color: #899D65;
+	color: white;
+}
+
+section article figure{
+	float: left;
+	margin: 10px 10px 0px 0px;
+}
+
+p{
+	margin: 10px 5px;
+}
+
+section article figcaption{
+	text-align: center;
+	font-size: 0.8em;
+	color: #899D65;
+}
+
+aside{
+	float: left;
+	width: 180px;
+	background-color: #899D65;
+	color: white;
+	margin-top: 4px;
+	padding: 4px 8px;
+	margin-left: 4px;
+}
+
+footer{
+	clear: both;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+/* Barra de navegación*/
+
+nav{
+	width: 100%;
+	float: left;
+	background-color: #363639;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	display: block;
+	float: left;
+	padding: 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	text-transform:uppercase;
+}
+
+nav ul li:hover, nav ul li a:hover{
+	background-color: #BECBA5;
+	color: #504F71;
+	text-transform: uppercase;
+}
+
+section table{
+	border: 0px solid #899D65;
+}
+
+section table tr{
+	background-color: grey;
+}
+
+section table td{
+	background-color: #BECBA5;
+	border: 3px solid black;
+}
+
+section table caption{
+	background-color: #899D65;
+}
+
+section figure{
+	width: 300px;
+	float: left;
+}
+
+section figure figcaption{
+	background-color: #899D65;
+}

@@ -1,0 +1,64 @@
+* {
+	font-family: Arial, sans-serif;
+	font-size: 12pt;
+	margin: 0 auto;
+}
+
+body{
+	width: 920px;
+	color: #333333;
+}
+
+footer{
+	width: 912px;
+	font-family: Tahoma, sans-serif;
+	color: white;
+	font-size: 8pt;
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+	clear: both;
+}
+
+section{
+	width: 600px;
+	margin-right: 20px;
+}
+
+section article{
+	width: 600px;
+}
+
+aside{
+	width: 280px;
+}
+
+nav{
+	width: 920px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	background-color: #333333;
+	float: left;
+}
+
+nav ul li a{
+	font-family: Arial, sans-serif;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+nav ul li:hover, nav ul li a:hover{
+	color: black;
+	background: white;
+}
+
+header h1{
+	background-color: black;
+	color: white;
+}

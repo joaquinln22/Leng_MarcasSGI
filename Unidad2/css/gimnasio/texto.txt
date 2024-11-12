@@ -1,0 +1,109 @@
+
+
+------------------------- index.html ----------------------------------
+
+
+Gimnasio Vega Media
+
+Moderno, acogedor, con las mejores máquinas y los mejores profesionales
+
+Inicio
+Servicios
+Galería
+Contacto
+
+Equipos
+
+Las mejores marcas
+
+Disponemos de las máquinas más modernas del mercado, con marcas tales como Technogym, Bodytone, Salter que, junto a nuestro equipo de profesionales, harán de su estancia algo agradable y productivo.
+
+Bodytone Ciclo Indoor EX-1
+
+Nuestros Servicios
+
+Disponemos de servicios tales como Espacios Cardioprotegidos, Maquinas Vending, Cabinas verticales de bronceado rápido, Valoración de la composición corporal por impedancia magnética. Alquiler de toallas, Taquilla de uso diario, Secadores de pelo, Wi-fi
+
+Todo ello dentro de unos planes:
+
+Plan Básico
+Plan Guiado
+Plan profesional
+
+Technogym Synchro Forma
+
+Grandes descuentos para grupos y matrículas de larga estancia
+
+Planes de deporte personalizados y guiados por un experto
+
+Derechos Reservados © Gimnasio Vega Media
+
+
+------------------------- Servicios.html ----------------------------------
+
+Servicios Gimnasio Vega Media
+
+Gran cantidad de Servicios, que hacen algo tu estancia especial
+
+Inicio
+Servicios
+Galería
+Contacto
+
+Tipos contratos
+Plan	Horas/mes	Tarifa
+Básico	8 horas	20,00 €
+Guiado	50 horas	80,00 €
+Profesional	indefinido	100,00 €
+
+Espacios auxiliares
+
+Contamos con amplios y completos vestuarios con taquilla de uso individual, así como zona de estar con WIFI gratis y espacio para máquinas de vending con productos nutricionales, agua, café….
+Servicios Complementarios
+
+Te ofrecemos fuera de cuota servicios de entrenamiento personal (individual o grupal), alquiler de taquillas, y programas especiales debidamente identificados.
+
+Derechos Reservados © Gimnasio Vega Media
+
+-------------------------- galeria.html ----------------------------------------
+
+Gimnasio Vega Media - Galería
+
+Galería de imágenes, instalaciones
+
+
+Inicio
+Servicios
+Galería
+Contacto
+
+Derechos Reservados © Gimnasio Vega Media
+
+
+------------------ contacta.html ------------------------------
+
+Gimnasio Vega Media
+
+Moderno, acogedor, con las mejores máquinas y los mejores profesionales
+
+
+Inicio
+Servicios
+Galería
+Contacto
+
+
+Otros modos de contacto
+
+Teléfono:968 620 913
+email: gimnasio@ces-vegamedia.es
+Tuiter: @cesvegamedia
+
+Grandes descuentos para grupos y matrículas de larga estancia
+
+Planes de deporte personalizados y guiados por un experto
+
+Derechos Reservados © Gimnasio Vega Media
+
+
+

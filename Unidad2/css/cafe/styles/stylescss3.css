@@ -1,0 +1,171 @@
+body{
+	text-align: center;
+	width: 960px;
+	margin: auto;
+	color: #FFFFFF;
+}
+
+#principal{
+	display: block;
+	width: 884px;
+	margin: 50px auto;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid #4d2612;
+	-moz-border-radius: 20px 0px 20px 0px;
+	-webkit-border-radius: 20px 0px 20px 0px;
+	border-radius: 20px 0px 20px 0px;
+	-moz-box-shadow: 4px 4px 5px rgba(169, 108, 53, 0.5);
+	-webkit-box-shadow: 4px 4px 5px rgba(169, 108, 53, 0.5);
+	box-shadow: 4px 4px 5px rgba(169, 108, 53, 0.5);
+	background: -webkit-linear-gradient(left, #a96c35, #4d2612);
+	background: -moz-linear-gradient(left, #a96c35, #4d2612);
+	/*background: -webkit-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
+	background: -moz-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);*/
+}
+
+#titulo{
+	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+	font: bold 36px MiNuevaFuente, verdana, sans-serif;
+}
+
+@font-face{
+	font-family: 'MiNuevaFuente';
+	src: url('../fuentes/Glipervelz-Origy FULL.ttf');
+}
+
+.izquierdo{
+	display: block;
+	float: left;
+	width: 400px;
+	margin: 20px;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid #4d2612;
+	-moz-border-radius: 20px 0px 20px 0px;
+	-webkit-border-radius: 20px 0px 20px 0px;
+	border-radius: 20px 0px 20px 0px;
+	-moz-box-shadow: 4px 4px 5px rgba(169, 108, 53, 0.5);
+	-webkit-box-shadow: 4px 4px 5px rgba(169, 108, 53, 0.5);
+	box-shadow: 4px 4px 5px rgba(169, 108, 53, 0.5);
+	background: -webkit-linear-gradient(left, #a96c35, #4d2612);
+	background: -moz-linear-gradient(left, #a96c35, #4d2612);
+}
+
+.derecho{
+	display: block;
+	float: left;
+	width: 400px;
+	margin: 20px;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid #4d2612;
+	-moz-border-radius: 0px 20px 0px 20px;
+	-webkit-border-radius: 0px 20px 0px 20px;
+	border-radius: 0px 20px 0px 20px;
+	-moz-box-shadow: 4px 4px 5px rgba(169, 108, 53, 0.5);
+	-webkit-box-shadow: 4px 4px 5px rgba(169, 108, 53, 0.5);
+	box-shadow: 4px 4px 5px rgba(169, 108, 53, 0.5);
+	background: -webkit-linear-gradient(left, #a96c35, #4d2612);
+	background: -moz-linear-gradient(left, #a96c35, #4d2612);
+}
+
+/*Selector descendente*/
+table td{
+	border: 1px solid #d17434;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #000;
+	color: #FFFFFF;
+	text-align: center;
+	height: 44px;
+}
+
+/*Selector descendente*/
+td a{
+	text-decoration: none;
+	color: #ec4012;
+}
+
+/*Hijo directo*/
+td > a{
+	font-weight: bold;
+	color: #19a40f;
+}
+
+/*Elementos adyacentes*/
+td+td{
+	background-color: #4d2612;
+}
+
+/*Elementos referenciados por atributo*/
+td[name="ascenso"]{
+	background-color: #ec4012;
+	font-weight:bold;
+}
+td[name="descenso"]{
+	background-color: #19a40f;
+	font-weight:bold;
+}
+
+nav{
+	margin: 50px 50px;
+}
+
+nav ul{
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li{
+	display: block;
+	float: left;
+	padding: 6px 10px;
+	margin-bottom: 4px;
+	margin-top: 4px;
+	margin-right: 8px;
+	border-top: 1px solid #984a0b;
+	border-bottom: 3px solid #984a0b;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #984a0b;
+	padding: 4px;
+}
+
+nav ul li:hover, nav ul li a:hover{
+	color: #f0d4b0;
+	background: #984a0b;
+}
+
+section{
+	width: 960px;
+	margin: 0px 0px;
+	float: left;
+}
+
+/*Efectos sobre imágenes en la galería*/
+.imagengaleria{
+	width: 200px;
+	float: left;
+	margin: 10px;
+}
+
+.imagengaleria:hover{
+	/*-moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-moz-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	-moz-transform: translateX(100px) translateY(100px);
+	-webkit-transform: translateX(100px) translateY(100px);*/
+	-moz-transform: translateX(120px) translateY(120px) scaleX(3.0) scaleY(3.0);
+	-webkit-transform: translateX(120px) translateY(120px) scaleX(3.0) scaleY(3.0) rotate(360deg);
+	-moz-transition: -moz-transform 1s ease-in-out 0.5s;
+	-webkit-transition: -webkit-transform 1s ease-in-out 0.1s;
+}

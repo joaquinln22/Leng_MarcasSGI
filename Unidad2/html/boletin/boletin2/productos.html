@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Productos</title>
+	</head>
+	<body>
+		<table width="70%" cellpadding="3" cellspacin="3" border="1" align="left">
+			<tr>
+				<td colspan="4" align="center"> <img src="./recursos/banner.jpg" width="100%" height="100%" Alt="Bodega" title="Bodega"></td>
+			</tr>
+			<tr>
+				<td align="left">Alma de Luzon</td>
+				<td rowspan="4"><img src="./recursos/botella2.jpg" width="50px" height="200px" Alt="Alma de Luzon" title="Alma de Luzon" align="left"></td>
+				<td align="left">Altos de Luzon</td>
+				<td rowspan="4"><img src="./recursos/botella1.jpg" width="50px" height="200px" Alt="Altos de Luzon" title="Altos de Luzon"></td>
+			</tr>
+			<tr>
+				<td align="left">Vino tinto</td>
+				<td align="left">Vino tinto</td>
+			</tr>
+			<tr>
+				<td align="left">210,00 Euros</td>
+				<td align="left">163,00 Euros</td>
+			</tr>
+			<tr>
+				<td align="left"><b>Aroma:</b><br>
+				Intenso y complejos aromas a
+				fruta negra en licor, cacao,
+				especiado roble fino.<br><br>
+				<b>Paladar:</b><br>
+				Carnosos, taninos maduros y
+				dulces, frescos y frutales,
+				sabroso y potente complejo.</td>
+				<td align="left"><b>Aroma:</b><br>
+				Frutos maduros, mora, ciruela,
+				motas de vainilla, torrefactas,
+				balsámico, personal y complejo.<br><br>
+				<b>Paladar:</b><br>
+				Amplio, mineral, taninos
+				maduros, goloso, redondo y
+				pulido, final persistente.</td>
+			</tr>	
+		</table>
+		<br>
+		<form method="POST">
+		<table width="70%" cellpadding="3" cellspacin="3" border="1" align="left">
+			<tr>
+				<td align="left">Nombre</td>
+				<td><input type="text" id="nombre" name="nombre" size="50" placeholder="Nombre..."></td>
+				<td align="left">Apellidos</td>
+				<td><input type="text" id="apellido" name="apellido" size="50" placeholder="Apellidos..."></td>
+			</tr>
+			<tr>
+				<td>Correo Electrónico</td>
+				<td><input type="text" id="email" name="email" size="50" placeholder="info@gmail.com"</td>
+				<td>Tipo de Vinos</td>
+				<td>
+					<select name="vinos" id="vinos">
+						<option value="tintos">Tintos</option>
+						<option value="rosados">Rosados</option>
+						<option value="blancos">Blancos</option>
+						<option value="todos">Todos</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="radio" id="h" name="sexo" value="hombre">
+					<label for="h">Hombre</label><br>
+					<input type="radio" id="m" name="sexo" value="mujer">
+					<label for="m">Mujer</label><br>
+				</td>
+				<td colspan="3" align="left"><textarea id="comment" name="comment" rows="4" cols="50" placeholder="Deseo recibir información sobre estas promociones en mi correo electrónico."></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="4"><input type="checkbox" id="terms" name="terms" value="terminos"><label for="terms">Acepto los términos de uso de esta información y el envio de publicidad.</label></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Enviar Solicitud"></td>
+				<td colspan="2"><input type="reset" value="Borrar Datos"></td>
+			</tr>
+		</table>
+		</form>
+	</body>
+</html>

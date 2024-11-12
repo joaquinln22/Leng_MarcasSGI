@@ -1,0 +1,59 @@
+body{
+	font-family: Arial, Verdana, sans-serif;
+}
+
+table{
+	text-align: center;
+	margin: auto;
+	border: 5px inset #9e9e9e;
+}
+
+caption{
+	font-size: 1.6em;
+	font-weight: 900;
+}
+
+td{
+	padding: 5px;
+	line-height: 1.5em;
+}
+
+tr span{
+	font-weight: bold;
+}
+
+td.daw{
+	background-color: #339966;
+	border: 1px solid #9e9e9e;
+}
+
+td.ser{
+	background-color: #99FF99;
+	border: 1px solid #9e9e9e;
+}
+
+td.lm{
+	background-color: #FF3333;
+	border: 1px solid #9e9e9e;
+	color: white;
+}
+
+td.cli{
+	background-color: #66CCFF;
+	border: 1px solid #9e9e9e;
+}
+
+td.dis{
+	background-color: #FFFF99;
+	border: 1px solid #9e9e9e;
+}
+
+td.recreo{
+	font-style: italic;
+	letter-spacing: 50px
+}
+
+td.hora{
+	font-size: medium;
+	text-decoration: underline;
+}

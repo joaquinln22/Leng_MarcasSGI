@@ -1,0 +1,53 @@
+body{
+	font-family: Arial, Verdana, sans-serif;
+	text-align: center;
+}
+
+.nombrecorto{
+	font-weigth: bold;
+	front-size: 1.5em;
+}
+
+.nombrelargo{
+	font-style: italic;
+}
+
+.horas{
+	font-size: 0.8em;
+}
+
+.caja, .caja2{
+	width: 200px;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+
+/*
+Es lo mismo que escribir una caja entera nueva
+.caja2{
+	width: 200px;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	clear: left;
+}*/
+
+.caja2{
+	clear: both;
+}
+
+.profesor1{
+	background-color: blue;
+	color: white;
+	border-color: red;
+}
+
+.profesor2{
+	background-color: #00CC99;
+	color: black;
+	border-color: black;
+	float: none;
+}

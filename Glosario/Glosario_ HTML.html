@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./estilos/styles.css">
+    <title>Glosario</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="./images/html.jpg" alt="cabecera">
+        </figure>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Glosario_ index.html" target="_parent">INICIO</a></li>
+            <li><a href="Glosario_ CSS.html" target="_parent">CSS</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Marcas</h1>
+        <ul>
+            <li><b>Negrita</b>: &lt;b&gt;&lt;/b&gt;</li>
+            <li><b>Títulos</b> (de 1 a 6): &lt;h1&gt;&lt;/h1&gt;, &lt;h2&gt;&lt;/h2&gt;, hasta &lt;h6&gt;</li>
+            <li><b>Párrafos</b>: &lt;p&gt;&lt;/p&gt;</li>
+            <li><b>Bloque de texto</b>: &lt;blockquote&gt;&lt;/blockquote&gt;</li>
+            <li><b>Énfasis o cursiva</b>: &lt;i&gt;&lt;/i&gt;</li>
+            <li><b>Salto de línea</b>: &lt;br&gt;</li>
+            <li><b>Línea de separación</b>: &lt;hr&gt;</li>
+            <li><b>Hipervínculo</b>: &lt;a href=&quot;URL&quot;&gt;Texto&lt;/a&gt;</li>
+            <li><b>Abrir en nueva ventana</b>: &lt;a href=&quot;URL&quot; target=&quot;_blank&quot;&gt;Texto&lt;/a&gt;</li>
+            <li><b>Abrir en la misma ventana</b>: &lt;a href=&quot;URL&quot; target=&quot;_parent&quot;&gt;Texto&lt;/a&gt;</li>
+            <li><b>Ancla para hipervínculos dentro de la misma página</b>: &lt;a name=&quot;NOMBRE&quot;&gt;Texto&lt;/a&gt;</li>
+            <li><b>Ejemplo de hipervínculo dentro de la misma página</b>: &lt;a href=&quot;index.html#nombre&quot;&gt;Imágenes&lt;/a&gt;</li>
+            <li><b>Lista desordenada</b>: &lt;ul&gt;&lt;/ul&gt;</li>
+            <li><b>Lista ordenada</b>: &lt;ol&gt;&lt;/ol&gt;</li>
+            <li><b>Elemento de lista</b>: &lt;li&gt;&lt;/li&gt;</li>
+            <li><b>Espacios en blanco</b>: &amp;ensp;</li>
+            <li><b>Tilde en la "a"</b>: &amp;aacute;</li>
+            <li><b>Letra "Ñ"</b>: &amp;ntilde;</li>
+            <li><b>Para "º"</b>: &amp;ordm;</li>
+        </ul>
+        <h1>Multimedia</h1>
+        <ul>
+            <li><b>Imágenes</b>:<br>
+                &lt;figure><br>
+                &nbsp;&nbsp;&nbsp;&lt;img src="" alt="TEXTO" width="" height=""><br>
+                &nbsp;&nbsp;&nbsp;&lt;figcaption>Descripción imagen&lt;/figcaption><br>
+                &lt;/figure>
+            </li>
+            <li><b>Webs</b>: &lt;iframe src="url" scroll="auto" frameborder="" width="" height="">&lt;/iframe></li>
+            <li><b>Videos</b>: &lt;iframe src="" width="" height="">&lt;/iframe></li>
+            <li><b>Audio</b>: &lt;audio controls>&lt;source src="musica.mp3"> &lt;source src="musica.ogg">&lt;/audio></li>
+        </ul>
+        <h1>Tablas</h1>
+        <ul>
+            <li><b>th</b>: titulos en las celdas</li>
+            <li><b>td</b>: resto de celdas</li>
+            <li><b>Ejemplo</b>:<br>&lt;table><br>
+                &nbsp;&nbsp;&nbsp;&lt;caption>Horario Escolar&lt;/caption> (Titulo de la tabla)<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th>Lunes&lt;/th><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th>Martes&lt;/th><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Física&lt;/td><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Química&lt;/td><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr><br>
+            &lt;/table></li>
+            <li><b>Unir celdas a la derecha</b>: &lt;td colspan="2">&lt;/td></li>
+            <li><b>Unir celdas hacia abajo</b>: &lt;td rowspan="2">&lt;/td></li>
+        </ul>
+        <h1>Formulario</h1>
+        <ul>
+            <li><b>Abrir formulario</b>: &lt;form action="" method="post"&gt; &lt;/form&gt;</li>
+            <li><b>Etiqueta</b>: &lt;label for="nombre"&gt;Nombre: &lt;/label&gt; (el for tiene que coincidir con el nombre de la etiqueta que acompaña)</li>
+            <li><b>Text</b>: &lt;input type="text" id="nombre" name="nombre"&gt;</li>
+            <li><b>Password</b>: &lt;input type="text" id="usuario" name="usuario"&gt;</li>
+            <li><b>Hidden</b>: &lt;input type="hidden" name="autor" value="Vega Media"&gt;</li>
+            <li><b>Checkbox</b>: &lt;input type="checkbox" id="info1" name="info1" value="sports"><br>
+                                &lt;label for="info1">Deportes&lt;/label><br>  
+                                &lt;input type="checkbox" id="info2" name="info2" value="computers"><br> 
+                                &lt;label for="info2">Informática&lt;/label></li>
+            <li><b>Radio</b>:&lt;input type="radio" id="val" name="capital" value="valencia"><br>
+                            &lt;label for="val">Valencia&lt;/label><br>
+                            &lt;input type="radio" id="mur" name="capital" value="murcia"><br>
+                            &lt;label for="mur">Murcia&lt;/label></li>
+            <li><b>Boton</b>: &lt;input type="button" value="Click Me!" onclick="alert('Hello Word!')"&gt;</li>
+            <li><b>Submit</b>: &lt;input type="submit" value="Enviar"&gt;</li>
+            <li><b>Reset</b>: &lt;input type="reset" value="Borrar"&gt;</li>
+            <li><b>Email</b>: &lt;input type="email" id="correo" name="correo"&gt;</li>
+            <li><b>Number</b>: &lt;input type="number" id="cant" name="cant"&gt;</li>
+            <li><b>Textarea</b>: &lt;textarea id="comment" name="comment" rows="4" cols="50" placeholder="Esto es un textarea de 4 filas y 50 columnas"&gt;&lt;/textarea&gt;</li>
+            <li><b>Select</b>: &lt;select name="coches" id="coches"><br>
+                                &nbsp;&nbsp;&nbsp;&lt;option value="audi">Audi&lt;/option><br>
+                                &nbsp;&nbsp;&nbsp;&lt;option value="mercedes">Mercedes&lt;/option><br>
+                                &nbsp;&nbsp;&nbsp;&lt;option value="toyota">Toyota&lt;/option><br>
+                                &nbsp;&nbsp;&nbsp;&lt;option value="renault">Renault&lt;/option><br>
+                                &lt;/select></li>
+            <li><b>Fieldset y legend</b>(cuadrado alrededor del formulario y texto en ese recuadrado):&lt;fieldset&gt;&lt;legend&gt;Información de contacto&lt;/legend&gt;&lt;/fieldset&gt;</li>
+        </ul>
+        
+        
+        <h1>Otros input</h1>
+        <ul>
+           <li><b>Fecha</b>: &lt;input type="date" id="fecha"></li>
+           <li><b>Hora</b>: &lt;input type="time" id="hora"></li>
+           <li><b>Paleta de colores</b>: &lt;input type="color" id="color"></li>
+           <li><b>Archivos del sistema</b>: &lt;input type="file" id="archivo"></li>
+           <li><b>Introducir una url</b>: &lt;input type="url" id="url"></li>
+        </ul>
+        <h1>Atributos</h1>
+        <ul>
+            <li><b>border</b>="" Grosor de los bordes</li>
+            <li><b>width</b>="" Ancho</li>
+            <li><b>height</b>="" Alto</li>
+            <li><b>cellspacing</b>="" Espacio entre celdas de la tabla</li>
+            <li><b>cellpadding</b>="" Espacio entre el borde de la celda y su contenido</li>
+            <li><b>align</b>="" Alineación del contenido de la celda (left, right, center)</li>
+            <li><b>bgcolor</b>="#ffffff" Color de fondo</li>
+            <li><b>bordercolor</b>="#ffffff" Color del borde</li>
+            <li><b>background</b>="ruta_imagen"</li>
+        </ul>
+        <h2><u>Atributos formulario</u>:</h2>
+        <ul>
+            <li><b>size</b>="30" tamaño del campo</li>
+            <li><b>maxlength</b>="20" caracteres permitidos</li>
+            <li><b>value</b>="Texto que debes editar si quieres cambiarlo"</li>
+            <li><b>placeholder</b>="Texto que desaparece al escribir"</li>
+            <li><b>required</b></li>
+            <li><b>min</b>="1" mínimo valor en un campo numérico</li>
+            <li><b>max</b>="84" maximo valor en un campo numérico</li>
+        </ul>
+    </section>
+</body>
+</html>

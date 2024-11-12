@@ -1,0 +1,151 @@
+*{
+	margin: 0 auto;
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+	width: 1100px;
+	color: #6d6d6c;
+}
+
+header figure{
+	margin-bottom: 5px;
+}
+
+nav{
+	width: 100%;
+	float: left;
+	background-color: black;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0px;
+}
+
+nav ul li{
+	display: block;
+	background-color: black;
+	font-weight: bold;
+	float: left;
+	margin: 5px 52px 5px 52px;
+	padding: 8px 0px 8px 0px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	
+}
+
+nav ul li:hover, nav ul li a:hover{
+	background-color: white;
+	color: black;
+}
+
+section{
+	width: 800px;
+	float: left;
+}
+
+section article{
+	background-color: #ebebeb;
+	border: 2px solid black;
+	padding: 4px;
+	margin: 10px 10px 10px 0px;
+	width: 800px;
+}
+
+h1{
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+aside{
+	width: 260px;
+	float: left;
+	border: 2px solid black;
+	padding: 4px;
+	margin: 10px 0px 10px 27px;
+	text-align: center;
+	font-size: 10pt;
+}
+
+aside figure img{
+	margin: 6px 8px 8px 8px;
+}
+
+aside p{
+	text-align:left;
+	margin: 0px 4px 0px 4px;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	clear: both;
+	padding: 10px;
+}
+
+.videos{
+	width: 1100px;
+	float: left;
+}
+
+section div{
+	float: left;
+	text-align: center;
+	font-weight:bold;
+	width: 33%;
+	margin: 20px 0px 20px 0px;
+}
+
+.horario{
+	width: 1100px;
+}
+
+table{
+	width:100%;
+	background-color: #ebebeb;
+	border: 1px solid black;
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+}
+
+table caption{
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
+table th{
+	font-weight: bold;
+	border: 1px solid black;
+}
+
+table td{
+	border: 1px solid black;
+}
+
+form{
+	margin: 8px 0px 2px 0px;
+}
+
+form fieldset{
+	padding: 3px;
+}
+
+.form_header{
+	background-color: black;
+	color:white;
+}
+
+label{
+	color: black;
+}
+
+.boton{
+	width: 200px;
+}
