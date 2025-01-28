@@ -1,0 +1,10 @@
+<persona>
+    <nombre>Joaquín</nombre>
+    <mujer/>
+    <fecha_nacimiento>
+        <dia>22</dia>
+        <mes>agosto</mes>
+        <anio>2002</anio>
+    </fecha_nacimiento>
+    <ciudad>Murcia</ciudad>
+</persona>

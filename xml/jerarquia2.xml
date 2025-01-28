@@ -1,0 +1,14 @@
+<mensaje>
+    <remite>
+        <nombre>Joaquín</nombre>
+        <email>joaquin@gmail.com</email>
+    </remite>
+    <destinatario>
+        <nombre>Maria</nombre>
+        <email>maria@gmail.com</email>
+    </fecha_nacimiento>
+    <asunto>bocadillo</asunto>
+    <texto>
+        <parrafo>jfaksldjflkdsajfsflkflkfdjslkafjslkj</parrafo>
+    </texto>
+</persona>
