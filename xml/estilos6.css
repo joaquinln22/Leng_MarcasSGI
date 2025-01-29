@@ -1,0 +1,16 @@
+biblioteca{
+    font-family: sans-serif;
+    display: table;
+    border: 1px solid black;
+    margin: 10px 10px 0px 10px;
+}
+
+libro{
+    display: table-row;
+}
+
+titulo, autor, fechaPublicacion{
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid black
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilos4.css" type="text/css"?>
+<biblioteca>
+    <libro>
+        <titulo>Lágrimas en la lluvia</titulo>
+        <autor>Rosa Montero</autor>
+        <fechaPublicacion>2011</fechaPublicacion>
+    </libro>
+    <libro>
+        <titulo>Sin noticias de Gurb</titulo>
+        <autor fechaNacimiento="11/01/1943">Eduardo Mendoza</autor>
+        <fechaPublicacion>1991</fechaPublicacion>
+    </libro>
+    <libro>
+        <titulo>La sombra del águila</titulo>
+        <autor fechaNacimiento="25/11/1951">Arturo Pérez-Reverte</autor>
+        <fechaPublicacion>1993</fechaPublicacion>
+    </libro>
+</biblioteca>

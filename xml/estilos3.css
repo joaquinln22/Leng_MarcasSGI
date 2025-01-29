@@ -1,0 +1,16 @@
+libro, autor, fechaPublicacion{
+    display:block;
+}
+
+libro{
+    margin-top: 10px;
+}
+
+titulo{
+    font-weight: bold;
+}
+
+fechaPublicacion{
+    font-style: italic;
+    border-bottom: 1px solid black;
+}

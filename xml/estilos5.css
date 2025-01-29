@@ -1,0 +1,15 @@
+biblioteca{
+    font-family: sans-serif;
+}
+
+titulo{
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+autor, fechaPublicacion{
+    display: list-item;
+    list-style: disc inside;
+    margin-left: 10px;
+}

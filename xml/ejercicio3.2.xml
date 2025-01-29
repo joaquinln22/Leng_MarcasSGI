@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mezcla_colores>
+    <mezcla resultado="Gris">
+        <color>Negro</color>
+        <color>Blanco</color>
+    </mezcla>
+    <mezcla resultado="Naranja">
+        <color>Rojo</color>
+        <color>Amarillo</color>
+    </mezcla>
+    <mezcla resultado="Verde claro">
+        <color>Amarillo</color>
+        <color>Azul</color>
+        <color>Blanco</color>
+    </mezcla>
+</mezcla_colores>

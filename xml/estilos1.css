@@ -1,0 +1,11 @@
+libro{
+    display:block;
+}
+
+titulo{
+    font-size: 150%;
+}
+
+autor {
+    color: red;
+}

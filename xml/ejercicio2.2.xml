@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos_futbol>
+    <equipo>
+        <nombre>Real Madrid C.F.</nombre>
+        <ciudad>Madrid</ciudad>
+        <entrenador />
+        <jugadores>
+            <jugador posicion="portero">
+                <nombre>Thibaut Courtois</nombre>
+                <nacionalidad>Bélgica</nacionalidad>
+            </jugador>
+            <jugador posicion="medio">
+                <nombre>Federico Valverde</nombre>
+                <nacionalidad>Uruguay</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+    <equipo>
+        <nombre>F.C. Barcelona</nombre>
+        <ciudad>Barcelona</ciudad>
+        <entrenador />
+        <jugadores>
+            <jugador posicion="delantero">
+                <nombre>Lamine Yamal</nombre>
+                <nacionalidad>España</nacionalidad>
+            </jugador>
+            <jugador posicion="defensa">
+                <nombre>Alex Balde</nombre>
+                <nacionalidad>España</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos_futbol>
