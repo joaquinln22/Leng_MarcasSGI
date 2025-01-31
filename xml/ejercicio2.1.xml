@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pedido>
-    <parrafo>
-    Pedido para el señor <destinatario>Antonio Martínez Conesa</destinatario>. El pedido se compone de un <articulo>patín eléctrico A2020</articulo>. A
-    entregar en <direccion>calle Mayor no 16, tercer piso, letra B</direccion>, el día <fecha>15/01/2020</fecha>.
-    </parrafo>
+    <destinatario>Antonio Martínez Conesa</destinatario>
+    <articulo>patín eléctrico A2020</articulo>
+    <direccion>calle Mayor no 16, tercer piso, letra B</direccion>
+    <fecha>15/01/2020</fecha>
 </pedido>

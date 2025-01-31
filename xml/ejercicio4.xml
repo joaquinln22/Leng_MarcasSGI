@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensaje> 
+    <remitente>
+        <nombre>Donald Trump</nombre>
+        <email>potus@gmail.com</email>
+    </remitente>
+    <destinatario> 
+        <nombre>Barack Obama</nombre>
+        <email>expotus@gmail.com</email>
+    </destinatario>
+    <asunto>Hola Barack</asunto>
+    <texto> 
+        <parrafo>¡Hola! ¿Qué tal?</parrafo>
+        <parrafo>A ver su llamas y quedamos.</parrafo>
+        <parrafo>Un saludo.</parrafo>
+    </texto>
+</mensaje>

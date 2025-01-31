@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilos_ejer5.css" type="text/css"?>
+<daw>
+    <modulo nombre="Entornos de desarrollo">
+        <curso>1º</curso>
+        <horas_semanales>3</horas_semanales>
+    </modulo>
+    <modulo nombre="Programación">
+        <curso>1º</curso>
+        <horas_semanales>7</horas_semanales>
+    </modulo>
+    <modulo nombre="Bases de Datos">
+        <curso>1º</curso>
+        <horas_semanales>5</horas_semanales>
+    </modulo>
+    <modulo nombre="Lenguaje de Marcas">
+        <curso>2º</curso>
+        <horas_semanales>6</horas_semanales>
+    </modulo>
+    <modulo nombre="Diseño de Interfaces Web">
+        <curso>2º</curso>
+        <horas_semanales>6</horas_semanales>
+    </modulo>
+</daw>
