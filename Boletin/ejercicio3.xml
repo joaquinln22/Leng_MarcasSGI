@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilos.css" type="text/css"?>
+<lista_webs>
+    <web>
+        <nombre>W3Schools</nombre>
+        <descripcion>Tutoriales web online</descripcion>
+        <enlace>https://www.w3schools.com/</enlace>
+    </web>
+    <web>
+        <nombre>Wikipedia</nombre>
+        <descripcion>La enciclopedia libre</descripcion>
+        <enlace>https://www.wikipedia.org/</enlace>
+    </web>
+    <web>
+        <nombre>W3C</nombre>
+        <descripcion>World Wide Web Consortium</descripcion>
+        <enlace>https://www.w3.org/</enlace>
+    </web>
+</lista_webs>
