@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE localidades [
+    <!ELEMENT localidades (provincia)*>
+    <!ELEMENT codigo (#PCDATA | ciudad | codpostal)*>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT codpostal (#PCDATA)>
+]>
+
+<localidades>
+    <provincia>
+        Murcia
+        <ciudad>Lorca</ciudad>
+        <codpostal>30820</codpostal>
+        <ciudad>Molina de Segura</ciudad>
+    </provincia>
+    <provincia>
+        Valencia
+        <codpostal>46520</codpostal>
+    </provincia>
+</localidades>

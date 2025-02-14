@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT marcador (pagina)*>
+  <!ELEMENT  pagina (nombre, descripcion, links) >
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT descripcion (#PCDATA)>
+  <!ELEMENT links (#PCDATA)>

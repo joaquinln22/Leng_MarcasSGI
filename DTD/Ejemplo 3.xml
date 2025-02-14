@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Persona [ (pagina)*>
+  <!ELEMENT  pagina (nombre, descripcion, links) >
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT descripcion (#PCDATA)>
+  <!ELEMENT links (#PCDATA)
+  
+  ]>
+
+<Persona>
+    <nombre>Jorge</nombre>
+</Persona>

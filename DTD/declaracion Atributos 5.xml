@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportistas [
+    <!ELEMENT deportistas (futbol | tenis | basket)*>
+    <!ELEMENT futbol (#PCDATA)>
+    <!ELEMENT tenis (#PCDATA)>
+    <!ELEMENT basket (#PCDATA)>
+        <!ATTLIST basket codigo ID #REQUIRED>
+]>
+
+
+<deportistas>
+    <basket codigo="PAR">Tony Parker</basket>
+    <basket codigo="GAS">Pau Gasol</basket>
+    <basket codigo="NOW">Dirk Nowitzki</basket>
+</deportistas>

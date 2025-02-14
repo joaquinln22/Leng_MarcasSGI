@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE poligono [
+    <!ELEMENT poligono ((coordX, coordY)+ | nombre)>
+    <!ELEMENT coordX (#PCDATA)>
+    <!ELEMENT coordY (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+]>
+
+<poligono>
+    <coordX>10</coordX>
+    <coordY>20</coordY>
+    <coordX>30</coordX>
+    <coordY>40</coordY>
+</poligono>

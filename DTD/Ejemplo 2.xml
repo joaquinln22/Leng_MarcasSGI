@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilos.css" type="text/css"?>
+<!DOCTYPE marcador SYSTEM "marcador.dtd">
+<marcador>
+  <pagina>
+    <nombre>W3Schools</nombre>
+    <descripcion>Tutoriales web online</descripcion>
+    <links>https://www.w3schools.com/</links>
+  </pagina>
+  <pagina>
+    <nombre>Wikipedia</nombre>
+    <descripcion>La enciclopedia libre.</descripcion>
+    <links>https://www.wikipedia.org/</links>
+  </pagina>
+  <pagina>
+    <nombre>W3C</nombre>
+    <descripcion>World Wide Web Consortium.</descripcion>
+    <links>https://www.w3.org/</links>
+  </pagina>
+</marcador>

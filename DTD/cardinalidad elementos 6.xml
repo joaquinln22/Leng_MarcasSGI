@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE localidades [
+    <!ELEMENT localidades (localidad)*>
+    <!ELEMENT localidad ((ciudad | pais ), codpostal)>
+    <!ELEMENT ciurdad (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT codpostal (#PCDATA)>
+]>
+
+<localidades>
+    <localidad>
+        <ciudad>Murcia</ciudad>
+        <pais>España</pais>
+    </localidad>
+
+    <localidad>
+        <codpostal>30004</codpostal>
+    </localidad>
+</localidades>

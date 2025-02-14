@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ejemplo [
+
+  <!ELEMENT  pagina (cualquier_contenido)>
+  <!ELEMENT cualquier_contenido ANY>
+  <!ELEMENT texto (#PCDATA)>
+]>
+
+<ejemplo>
+    <cualquier_contenido/>
+</ejemplo>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportistas [
+    <!ELEMENT deportistas (futbol | tenis | basket)*>
+    <!ELEMENT futbol (#PCDATA)>
+    <!ELEMENT tenis (#PCDATA)>
+    <!ELEMENT basket (#PCDATA)>
+        <!ATTLIST tenis pais CDATA "España">
+        <!ATTLIST basket fecha_nac CDATA #IMPLIED>
+        <!ATTLIST basket equipo CDATA #REQUIRED>
+]>
+
+
+<deportistas>
+    <tenis>Rafael Nadal</tenis>
+    <basket pais="Eslovenia" fecha_nac="28/02/1999" equipo="Mavericks">Luka Doncic</basket>
+    <basket equipo="Real Madrid">Sergio Llul</basket>
+</deportistas>

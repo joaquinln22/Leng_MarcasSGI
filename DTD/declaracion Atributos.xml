@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportistas [
+    <!ELEMENT deportistas (futbol | tenis | basket)*>
+    <!ELEMENT futbol (#PCDATA)>
+    <!ELEMENT tenis (#PCDATA)>
+    <!ATTLIST tenis pais CDATA "España">
+    <!ELEMENT basket (#PCDATA)>
+]>
+
+
+<deportistas>
+    <futbol>Leo Messi</futbol>
+    <tenis>Rafael Nadal</tenis>
+    <tenis pais="Suiza">Roger Federer</tenis>
+</deportistas>

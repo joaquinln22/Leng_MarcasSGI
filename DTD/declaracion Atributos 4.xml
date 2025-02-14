@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportistas [
+    <!ELEMENT deportistas (futbol | tenis | basket)*>
+    <!ELEMENT futbol (#PCDATA)>
+    <!ELEMENT tenis (#PCDATA)>
+    <!ELEMENT basket (#PCDATA)>
+        <!ATTLIST basket pais (ESP | FRA | ITA | ALE) "España">
+]>
+
+
+<deportistas>
+    <tenis>Rafael Nadal</tenis>
+    <basket pais="Fra">Tony Parker</basket>
+    <basket>Pau Gasol</basket>
+    <basket pais="ALE">Dirk Nowitzki</basket>
+</deportistas>

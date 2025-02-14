@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE articulos [
+    <!ELEMENT articulos (articulo)*>
+    <!ELEMENT articulo ((codigo | id ), nombre)>
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+]>
+
+<articulos>
+    <articulos>
+        <codigo>C001-A</codigo>
+        <nombre>Lavadora</nombre>
+    </articulos>
+
+    <articulos>
+        <id>300094</id>
+        <nombre>Microondas</nombre>
+    </articulos>
+</articulos>

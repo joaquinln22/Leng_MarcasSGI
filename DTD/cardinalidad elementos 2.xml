@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [
+    <!ELEMENT receta_de_cocina (nombre, ingrediente)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT ingrediente (#PCDATA)>
+]>
+
+<recetas_de_cocina>
+    <nombre>Tortilla de patatas</nombre>
+    <ingredientes>Huevo</ingredientes>
+    <ingredientes>patata</ingredientes>
+    <ingredientes>aceite</ingredientes>
+    <ingredientes>sal</ingredientes>
+</recetas_de_cocina>
