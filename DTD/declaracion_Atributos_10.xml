@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animales [
+    <!ELEMENT animales (animales)*>
+    <!ELEMENT animal (nombre)>
+    <!ELEMENT nombre (#PCDATA)>
+        <!ATTLIST animal
+            imagen CDATA #IMPLIED
+            tipo_imagen NOTATION (jpg | gif | png) #IMPLIED>
+    <!NOTATION gif SYSTEM "image/gif">
+    <!NOTATION jpg SYSTEM "image/jpeg">
+    <!NOTATION png SYSTEM "image/png">
+]>
+
+<animales>
+    <animal imagen="ballena_azul.gif" tipo_imagen="gif">
+        <nombre>Ballena</nombre>
+    </animal>
+    <animal imagen="leon-dormido.png" tipo_imagen="png">
+        <nombre>Leon</nombre>
+    </animal>
+</animales>

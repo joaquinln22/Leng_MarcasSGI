@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE usuarios [
+    <!ELEMENT usuarios (usuario)*>
+    <!ELEMENT usuario (#PCDATA)>
+        <!ATTLIST usuario clave NMTOKENS #REQUIRED>
+]>
+
+<usuarios>
+    <usuario clave="12345 6789A">Amparo</usuario>
+    <usuario clave="a-b-c-d A-B-C-D">Darío</usuario>
+    <usuario clave="JC.1 juan_ca">Juan Carlos</usuario>
+</usuarios>
