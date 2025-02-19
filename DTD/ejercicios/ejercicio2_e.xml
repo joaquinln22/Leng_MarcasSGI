@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE elementos [
+    <!ELEMENT elementos (uno*, dos+, tres)>
+    <!ELEMENT uno (#PCDATA)>
+    <!ELEMENT dos ANY>
+    <!ELEMENT tres EMPTY>
+]>
+<elementos>
+    <dos/>
+    <tres/>
+</elementos>

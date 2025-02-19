@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE figura [
+    <!ELEMENT figura (nombre, caracteristicas, numero_lados)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT caracteristicas (color, tipo)>
+    <!ELEMENT color (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT numero_lados (#PCDATA)>
+]>
+<figura>
+    <nombre>rombo</nombre>
+    <caracteristicas>
+        <color>azul</color>
+        <tipo>plana</tipo>
+    </caracteristicas>
+    <numero_lados>4</numero_lados>
+</figura>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE capitales [
+<!ELEMENT capitales (pais, capital?)*>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT capital (#PCDATA)>
+]>
+<capitales>
+    <pais>italia</pais>
+    <capital>roma</capital>
+    <pais>portugal</pais>
+    <capital>lisboa</capital>
+    <pais>austria</pais>
+</capitales>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE articulos [
+    <!ELEMENT articulos (articulo)*>
+    <!ELEMENT articulo (identificacion, nombre)>
+    <!ELEMENT identificacion (#PCDATA | codigo | id)*>
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+]>
+<articulos>
+    <articulo>
+        <identificacion>
+            Quedan 10 unidades.
+            <codigo>TIJ456</codigo>
+        </identificacion>
+        <nombre>tijeras</nombre>
+    </articulo>
+    <articulo>
+        <identificacion>
+            No hay stock.
+            <codigo>SIE478</codigo>
+            <id>554478</id>
+        </identificacion>
+        <nombre>sierra</nombre>
+    </articulo>
+</articulos>

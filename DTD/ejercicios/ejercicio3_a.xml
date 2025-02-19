@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE formas_geometricas [
+    <!ELEMENT formas_geometricas (cuadrado, triangulo, circulo, otra)>
+    <!ELEMENT cuadrado (#PCDATA)>
+    <!ATTLIST cuadrado lados CDATA #REQUIRED>
+    <!ELEMENT triangulo (#PCDATA)>
+    <!ATTLIST triangulo lados CDATA #REQUIRED>
+    <!ELEMENT circulo (#PCDATA)>
+    <!ELEMENT otra EMPTY>
+    <!ATTLIST otra lados CDATA #REQUIRED>
+]>
+<formas_geometricas>
+    <cuadrado lados="cuatro">tablero</cuadrado>
+    <triangulo lados="tres">señal</triangulo>
+    <circulo>anilla</circulo>
+    <otra lados="siete"/>
+</formas_geometricas>

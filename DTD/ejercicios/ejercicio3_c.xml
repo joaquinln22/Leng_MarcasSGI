@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE viajes [
+    <!ELEMENT viajes (paises, ciudades)>
+    <!ELEMENT paises (pais)*>
+    <!ELEMENT pais (#PCDATA)>
+    <!ATTLIST pais codpais ID #REQUIRED> <!--ID no puede empezar por un número, debe cumplir las reglas de identificadores de XML-->
+    <!ELEMENT ciudades (ciudad)*>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ATTLIST ciudad pais IDREF #IMPLIED> <!--IDREF es un identificador que tiene que existir en otro atributo ID del documento XML-->
+]>
+<viajes>
+    <paises>
+        <pais codpais="ESP">España</pais>
+        <pais codpais="FRA">Francia</pais>
+        <pais codpais="ITA">Italia</pais>
+        <pais codpais="DIN">Dinamarca</pais>
+    </paises>
+    <ciudades>
+        <ciudad pais="ITA">Roma</ciudad>
+        <ciudad>Copenhague</ciudad>
+        <ciudad>Sevilla</ciudad>
+        <ciudad pais="ITA">Florencia</ciudad>
+        <ciudad pais="FRA">Marsella</ciudad>
+    </ciudades>
+</viajes>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportes [
+    <!ELEMENT deportes (#PCDATA)>
+]>
+<!--El elemento deportes no puede tener hijos-->
+<deportes>Esquí Golf Tenis</deportes>

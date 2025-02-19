@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sedes [
+    <!ELEMENT sedes (francia, italia, dinamarca)>
+    <!ELEMENT francia (ciudad+)> <!--El signo de la suma indica que el elemento aparece 1-n veces obligatoriamente-->
+    <!ELEMENT italia (ciudad+)>
+    <!ELEMENT dinamarca (ciudad+)>
+    <!ELEMENT ciudad (#PCDATA)>
+]>
+<sedes>
+    <francia>
+        <ciudad>Paris</ciudad>
+        <ciudad>Nantes</ciudad>
+    </francia>
+    <italia>
+        <ciudad>Roma</ciudad>
+        <ciudad>Florencia</ciudad>
+        <ciudad>Venecia</ciudad>
+    </italia>
+    <dinamarca>
+        <ciudad/>
+    </dinamarca>
+</sedes>

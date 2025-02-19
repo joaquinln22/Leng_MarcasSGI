@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comidas [
+    <!ELEMENT comidas (comida)*>
+    <!ELEMENT comida ((codigo | nombre), precio)>
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+]>
+<comidas>
+    <comida>
+        <codigo>S25</codigo>
+        <precio>6</precio>
+    </comida>
+    <comida>
+        <nombre>salchicha</nombre>
+        <precio>8</precio>
+    </comida>
+</comidas>

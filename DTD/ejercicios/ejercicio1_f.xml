@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ropa [
+    <!ELEMENT ropa (nombre, color*)> <!--El asterisco significa que puede aparecer 0-n veces-->
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+]>
+<!--Solo puede haber un nombre-->
+<ropa>
+    <nombre>chaqueta</nombre>
+    <color>azul</color>
+    <color>blanco</color>
+    <color>verde</color>
+    <color>gris</color>
+</ropa>
