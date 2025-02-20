@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE matricula [
+    <!ELEMENT matricula (personal, pago)>
+    <!ELEMENT personal (dni, nombre, titulacion, domicilios)>
+    <!ELEMENT dni (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT titulacion (#PCDATA)>
+    <!ELEMENT domicilios (domicilio+)>
+    <!ELEMENT domicilio (direccion, municipio)>
+        <!ATTLIST domicilio tipo (familiar | habitual) #REQUIRED>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT municipio (#PCDATA)>
+    <!ELEMENT pago (tipo_matricula, cantidad)>
+    <!ELEMENT tipo_matricula (#PCDATA)>
+    <!ELEMENT cantidad (#PCDATA)>
+]>
+<matricula>
+    <personal>
+        <dni>12345678A</dni>
+        <nombre>Amparo García Gil</nombre>
+        <titulacion>Ingeniería Informática</titulacion>
+        <domicilios>
+            <domicilio tipo="familiar">
+                <direccion>C/ Principal no1</direccion>
+                <municipio>Murcia</municipio>
+            </domicilio>
+            <domicilio tipo="habitual">
+                <direccion>C/ Secundaria no2</direccion>
+                <municipio>Murcia</municipio>
+            </domicilio>
+        </domicilios>
+    </personal>
+    <pago>
+        <tipo_matricula>Matrícula Ordinaria</tipo_matricula>
+        <cantidad>950€</cantidad>
+    </pago>
+</matricula>

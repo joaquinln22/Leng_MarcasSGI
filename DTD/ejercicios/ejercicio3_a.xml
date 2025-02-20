@@ -10,8 +10,8 @@
     <!ATTLIST otra lados CDATA #REQUIRED>
 ]>
 <formas_geometricas>
-    <cuadrado lados="cuatro">tablero</cuadrado>
-    <triangulo lados="tres">señal</triangulo>
+    <cuadrado lados="4">tablero</cuadrado>
+    <triangulo lados="3">señal</triangulo>
     <circulo>anilla</circulo>
-    <otra lados="siete"/>
+    <otra lados="7"/>
 </formas_geometricas>

@@ -16,9 +16,10 @@
         <ingrediente coding="JAM">Jamón York</ingrediente>
         <ingrediente coding="CHA">Champiñón</ingrediente>
         <ingrediente coding="HUE">Huevo</ingrediente>
+        <ingrediente coding="OLI">Olivas</ingrediente>
     </ingredientes>
     <tipos>
-        <tipo nombre="Margarita" ingredientes="JAM, CHA, OLI"/>
-        <tipo nombre="Deluxe" ingredientes="JAM, HUE, CHA, CHO "/>
+        <tipo nombre="Margarita" ingredientes="JAM CHA OLI"/> <!--Los valores del atributo “ingredientes” deben escribirse separados por espacios en blanco (no por comas).-->
+        <tipo nombre="Deluxe" ingredientes="JAM HUE CHA CHO"/>
     </tipos>
 </pizzas>

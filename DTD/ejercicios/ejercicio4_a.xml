@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE satelites [
+    <!ELEMENT satelite EMPTY>
+    <!ATTLIST satelite numero ID #REQUIRED>
+    <!ATTLIST satelite nombre CDATA #REQUIRED>
+    <!ATTLIST satelite planeta CDATA #IMPLIED>
+]>
+<satelites>
+    <satelite numero="N234" nombre="Galatea"/>
+    <satelite numero="N479" nombre="Mimas" planeta="Saturno"/>
+    <satelite numero="N566" nombre="Diode" planeta="Saturno"/>
+    <satelite numero="N607" nombre="Miranda" planeta="Urano"/>
+</satelites>
