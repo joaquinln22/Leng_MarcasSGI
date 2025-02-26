@@ -59,8 +59,8 @@ public class Libro {
 		this.autor = autor;
 	}
 	
-	public String getFechaPublicacion() {
-		return cod;
+	public int getFechaPublicacion() {
+		return fechaPublicacion;
 	}
 	
 	public void setFechaPublicacion(int fechaPublicacion) {
