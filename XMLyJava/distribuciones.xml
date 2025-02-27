@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE distribuciones SYSTEM "distribuciones.dtd">
+<distribuciones>
+    <distribucion identificador="DEBIAN">
+        <nombre>Debian GNU/Linx</nombre>
+        <web>www.debian.org</web>
+        <nacimiento>1993</nacimiento>
+    </distribucion>
+    <distribucion identificador="KDE">
+        <nombre>KDE</nombre>
+        <web>kde.org</web>
+        <nacimiento>1996</nacimiento>
+    </distribucion>
+    <distribucion identificador="REDHAT">
+        <nombre>Red Hat Linux</nombre>
+        <web>www.redhat.com</web>
+        <nacimiento>2003</nacimiento>
+    </distribucion>
+    <distribucion identificador="UBUNTU">
+        <nombre>Ubuntu</nombre>
+        <web>www.ubuntu.com</web>
+        <nacimiento>2004</nacimiento>
+    </distribucion>
+</distribuciones>

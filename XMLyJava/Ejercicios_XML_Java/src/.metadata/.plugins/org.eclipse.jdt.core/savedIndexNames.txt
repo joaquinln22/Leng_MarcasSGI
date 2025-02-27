@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+C:\Users\JoaquinL\Desktop\Leng_MarcasSGI\XMLyJava\Ejercicios_XML_Java\src\.metadata\.plugins\org.eclipse.jdt.core
