@@ -52,7 +52,7 @@ public class EscrituraListaLibro {
 			TransformerFactory transformerFactory = TransformerFactory.newInstance();
 			Transformer transformer = transformerFactory.newTransformer();
 			DOMSource source = new DOMSource(doc);
-			StreamResult result = new StreamResult(new File("C:\\Users\\JoaquinL\\Desktop\\Leng_MarcasSGI\\XML_Java\\librosnuevos2.xml"));
+			StreamResult result = new StreamResult(new File("C:\\Users\\JoaquinL\\Documents\\Leng_MarcasSGI\\XMLyJava\\librosnuevos2.xml"));
 			
 			transformer.transform(source, result);
 		}catch(Exception e) {

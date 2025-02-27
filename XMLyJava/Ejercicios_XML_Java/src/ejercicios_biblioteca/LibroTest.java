@@ -8,7 +8,7 @@ public class LibroTest {
 
 	public static void main(String[] args) {
 		try {
-			File archivo = new File("C:\\Users\\JoaquinL\\Desktop\\Leng_MarcasSGI\\XML_Java\\libros.xml");
+			File archivo = new File("C:\\Users\\JoaquinL\\Documents\\Leng_MarcasSGI\\XMLyJava\\libros.xml");
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 			DocumentBuilder db = dbf.newDocumentBuilder();
 			Document doc = db.parse(archivo);

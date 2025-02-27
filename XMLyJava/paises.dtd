@@ -1,0 +1,7 @@
+<!ELEMENT paises (pais+)>
+<!ELEMENT pais (sistema, superficie, moneda, idioma)>
+    <!ATTLIST pais nombre CDATA #REQUIRED>
+<!ELEMENT sistema (#PCDATA)>
+<!ELEMENT superficie (#PCDATA)>
+<!ELEMENT moneda (#PCDATA)>
+<!ELEMENT idioma (#PCDATA)>

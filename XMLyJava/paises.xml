@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paises SYSTEM "paises.dtd">
+<paises>
+    <pais nombre="España">
+        <sistema>monarquía</sistema>
+        <superficie>504645</superficie>
+        <moneda>euro</moneda>
+        <idioma>español</idioma>
+    </pais>
+    <pais nombre="Francia">
+        <sistema>repúblicac</sistema>
+        <superficie>675417</superficie>
+        <moneda>euro</moneda>
+        <idioma>frances</idioma>
+    </pais>
+    <pais nombre="Suiza">
+        <sistema>república</sistema>
+        <superficie>41290</superficie>
+        <moneda>franco suizo</moneda>
+        <idioma>frances</idioma>
+    </pais>
+    <pais nombre="Argentina">
+        <sistema>república</sistema>
+        <superficie>2780400</superficie>
+        <moneda>peso argentino</moneda>
+        <idioma>español</idioma>
+    </pais>
+</paises>

@@ -8,7 +8,7 @@ public class Biblioteca {
 
 	public static void main(String[] args) {
 		try {
-			File archivo = new File("C:\\Users\\JoaquinL\\Desktop\\Leng_MarcasSGI\\xml\\biblioteca1.xml");
+			File archivo = new File("C:\\Users\\JoaquinL\\Documents\\Leng_MarcasSGI\\xml\\biblioteca1.xml");
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 			DocumentBuilder db = dbf.newDocumentBuilder();
 			Document doc = db.parse(archivo);

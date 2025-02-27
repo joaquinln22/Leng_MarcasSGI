@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videojuegos [ 
+  <!ELEMENT videojuegos (juego+)>
+  <!ELEMENT juego (titulo, distribuidora, genero, clasificacion, plataforma)>
+    <!ATTLIST juego id ID #REQUIRED>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT distribuidora (#PCDATA)>
+  <!ELEMENT genero (#PCDATA)>
+  <!ELEMENT clasificacion (#PCDATA)>
+  <!ELEMENT plataforma (#PCDATA)>
+]> 
+<videojuegos>
+  <juego id="TLU">
+	  <titulo>The Last Of Us</titulo>
+	  <distribuidora>Sony Interactive Entertainment</distribuidora>
+	  <genero>Acción-aventura</genero>
+	  <clasificacion>18</clasificacion>
+	  <plataforma>PlayStation</plataforma>
+  </juego>
+  <juego id="GOW">
+    <titulo>God of War</titulo>
+    <distribuidora>Sony Interactive Entertainment</distribuidora>
+    <genero>Acción-aventura</genero>
+    <clasificacion>18</clasificacion>
+    <plataforma>PlayStation</plataforma>
+  </juego>
+  <juego id="ACO">
+    <titulo>Assassin's Creed Origins</titulo>
+    <distribuidora>Ubisoft</distribuidora>
+    <genero>Acción-aventura</genero>
+    <clasificacion>18</clasificacion>
+    <plataforma>PlayStation</plataforma>
+  </juego>
+  <juego id="ACD">
+    <titulo>Assassin's Creed Odyssey</titulo>
+    <distribuidora>Ubisoft</distribuidora>
+    <genero>Acción-aventura</genero>
+    <clasificacion>18</clasificacion>
+    <plataforma>PlayStation</plataforma>
+  </juego>
+  <juego id="ACV">
+    <titulo>Assassin's Creed Valhalla</titulo>
+    <distribuidora>Ubisoft</distribuidora>
+    <genero>Acción-aventura</genero>
+    <clasificacion>18</clasificacion>
+    <plataforma>PlayStation</plataforma>
+  </juego>
+  <juego id="POE">
+    <titulo>Pokémon Escarlata</titulo>
+    <distribuidora>Nintendo</distribuidora>
+    <genero>Videojuego de rol</genero>
+    <clasificacion>7</clasificacion>
+    <plataforma>Nintendo Switch</plataforma>
+  </juego>
+  <juego id="POP">
+    <titulo>Pokémon Púrpura</titulo>
+    <distribuidora>Nintendo</distribuidora>
+    <genero>Videojuego de rol</genero>
+    <clasificacion>7</clasificacion>
+    <plataforma>Nintendo Switch</plataforma>
+  </juego>
+  <juego id="VAL">
+    <titulo>Valorant</titulo>
+    <distribuidora>Riot Games</distribuidora>
+    <genero>Hero shooter</genero>
+    <clasificacion>16</clasificacion>
+    <plataforma>Microsoft Windows</plataforma>
+  </juego>
+  <juego id="TSW">
+    <titulo>The Secret World</titulo>
+    <distribuidora>Electronic Arts</distribuidora>
+    <genero>Acción-aventura</genero>
+    <clasificacion>16</clasificacion>
+    <plataforma>Microsoft Windows</plataforma>
+  </juego>
+  <juego id="ZBW">
+    <titulo>The Legend of Zelda: Breath of the Wild</titulo>
+    <distribuidora>Nintendo</distribuidora>
+    <genero>Acción-aventura</genero>
+    <clasificacion>12</clasificacion>
+    <plataforma>Nintendo Switch</plataforma>
+  </juego>
+  <juego id="WIS">
+    <titulo>Wii Sports</titulo>
+    <distribuidora>Nintendo</distribuidora>
+    <genero>Deportes</genero>
+    <clasificacion>7</clasificacion>
+    <plataforma>Wii</plataforma>
+  </juego>
+  <juego id="ACR">
+    <titulo>Animal Crossing</titulo>
+    <distribuidora>Nintendo</distribuidora>
+    <genero>Simulación de vida</genero>
+    <clasificacion>3</clasificacion>
+    <plataforma>Nintendo Switch</plataforma>
+  </juego>
+  <juego id="LM3">
+    <titulo>Luigi's Mansion 3</titulo>
+    <distribuidora>Nintendo</distribuidora>
+    <genero>Acción-aventura</genero>
+    <clasificacion>7</clasificacion>
+    <plataforma>Nintendo Switch</plataforma>
+  </juego>
+</videojuegos>
+	
+	
