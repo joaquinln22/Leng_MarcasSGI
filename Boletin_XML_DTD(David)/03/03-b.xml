@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbol [
+    <!ELEMENT futbol ((jugador|equipo)*)>
+    <!ELEMENT jugador EMPTY>
+        <!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+        <!ATTLIST jugador codigo ID #REQUIRED>
+    <!ELEMENT equipo EMPTY>
+        <!ATTLIST equipo nombre CDATA #REQUIRED>
+        <!ATTLIST equipo jugadores IDREFS #IMPLIED>
+]>
+<futbol>
+    <jugador nombre="Alfredo Di Stéfano" codigo="ADS" />
+    <jugador nombre="Diego Armando Maradona" codigo="DAM" />
+    <jugador nombre="Juhan Cruyff" codigo="JC" />
+    <equipo nombre="Real Madrid" jugadores="ADS"/>
+    <equipo nombre="Futbol Club Barcelona" jugadores="DAM JC"/>
+</futbol>

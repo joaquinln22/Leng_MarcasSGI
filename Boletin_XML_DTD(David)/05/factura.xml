@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE factura SYSTEM "factura.dtd">
+
+<factura n_fac="F099"> 
+    <datos_empresa> 
+        <nombre>Informática VM S.L</nombre> 
+        <dir>Ctra. Mula, 37</dir> 
+        <poblacion cod_postal="30564">Alguazas</poblacion> 
+        <provincia>Murcia</provincia> 
+        <cif>E-12345678</cif> 
+        <telefono/> 
+    </datos_empresa> 
+    <datos_cliente n_cli="C123"> 
+        <nombre>Juan García Gil</nombre> 
+        <dir_env>C/Mayor, 5</dir_env> 
+        <poblacion cod_postal="30500">Molina de Segura</poblacion> 
+        <provincia>Murcia</provincia> 
+    </datos_cliente> 
+    <datos_factura n_ped="P321" iva="16" f_pago= "efectivo" moneda="euro"> 
+        <fecha>20-02-2020</fecha> 
+        <linea> 
+            <ref>TA1232TB</ref> 
+            <desc>Disco Duro Externo Toshiba A123 2TB</desc> 
+            <cant>2</cant> 
+            <precio>62,50</precio> 
+            <importe>145,00</importe> 
+        </linea> 
+        <linea> 
+            <ref>BENQABC123</ref> 
+            <desc>Monitor BenQ ABC123 27" LED</desc> 
+            <cant>1</cant> 
+            <precio>180,00</precio> 
+            <importe>208,80</importe> 
+        </linea> 
+        <linea> 
+            <ref>HP1234MUL</ref> 
+            <desc>Impresora HP 1234 Multifunción Color Wifi</desc> 
+            <cant>2</cant> 
+            <precio>40,00</precio> 
+            <importe>92,80</importe> 
+        </linea> 
+        <base>510,00</base> 
+        <cuota_iva>81,60</cuota_iva>
+        <total>591,60</total> 
+    </datos_factura>
+</factura> 

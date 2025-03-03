@@ -1,0 +1,9 @@
+<!ELEMENT pruebas (prueba+)>
+<!ELEMENT prueba (nombre, apellidos, direccion, municipio, conyuge?)>
+<!ATTLIST prueba dni CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre sexo (Masculino | Femenino) "Masculino">
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT municipio (#PCDATA)>
+<!ELEMENT conyuge (#PCDATA)>

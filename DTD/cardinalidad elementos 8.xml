@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE localidades [
     <!ELEMENT localidades (provincia)*>
-    <!ELEMENT codigo (#PCDATA | ciudad | codpostal)*>
+    <!ELEMENT provincia (#PCDATA | ciudad | codpostal)*>
     <!ELEMENT ciudad (#PCDATA)>
     <!ELEMENT codpostal (#PCDATA)>
 ]>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pruebas SYSTEM "pruebas.dtd">
+<!--<!DOCTYPE pruebas [
+    <!ELEMENT pruebas (prueba*)>
+    <!ELEMENT prueba (nombre, apellidos, direccion, municipio, conyuge?)>
+        <!ATTLIST prueba dni CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+        <!ATTLIST nombre sexo (Masculino | Femenino) "Masculino" >
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT municipio (#PCDATA)>
+    <!ELEMENT conyuge (#PCDATA)>
+]>-->
+
+<pruebas>
+    <prueba dni="49195871K">
+        <nombre sexo="Masculino">Joaquín</nombre>
+        <apellidos>Lorca Nieto</apellidos>
+        <direccion>C. de la Molineta, 28</direccion>
+        <municipio>Alguazas</municipio>
+        <conyuge/>
+    </prueba>
+    <prueba dni="45231298G">
+        <nombre sexo="Femenino">María</nombre>
+        <apellidos>Bermejo</apellidos>
+        <direccion>C. Correos, 22</direccion>
+        <municipio>Alguazas</municipio>
+        <conyuge>Sí</conyuge>
+    </prueba>
+</pruebas>
